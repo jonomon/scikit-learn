@@ -20,7 +20,10 @@ from .variance_threshold import VarianceThreshold
 from .rfe import RFE
 from .rfe import RFECV
 
+from .mrmr import MRMR
+
 __all__ = ['GenericUnivariateSelect',
+           'MRMR',
            'RFE',
            'RFECV',
            'SelectFdr',
